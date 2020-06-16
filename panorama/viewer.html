@@ -3,9 +3,16 @@
 
 
 <html>
-	
-	
-	
+
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi'><link rel='stylesheet' href='https://naver.github.io/egjs-view360/common/css/demo.css'>
+      <link rel='stylesheet' href='https://naver.github.io/egjs-view360/common/css/PanoControls.css'>
+      
+      </head>
+
+
 	<!-- This Part Runs Base.html-->
     <header>
 		
@@ -19,17 +26,41 @@
         });
 		
         </script>
-		
+
+
 		
     </header>
 
 
 
 	<body>
-		<div id="base"></div>
-		<iframe src="https://encryptedmaze.net/menu.html" title="CubeMap Viewer" width="100%" height="1000" style="border:1px solid black;"> </iframe>
-	
-	
+
+        <div id="base"></div>
+       
+        
+
+
+        <iframe height="600" style="width: 100%;" scrolling="no" title="Minecraft panorama recreation - LIVE FEED" src="https://codepen.io/Tomlacko/embed/XWXjvEW?height=425&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+            See the Pen <a href='https://codepen.io/Tomlacko/pen/XWXjvEW'>Minecraft panorama recreation - LIVE FEED</a> by Tomlacko
+            (<a href='https://codepen.io/Tomlacko'>@Tomlacko</a>) on <a href='https://codepen.io'>CodePen</a>.
+          </iframe>
+
+          <div class="viewer">
+            <div class="container"></div>
+        </div>
+        <!-- partial -->
+        <script src='https://naver.github.io/egjs-view360/release/latest/dist/view360.pkgd.js'></script>
+        <script src='https://naver.github.io/egjs-view360/common/js/jquery-2.2.4.js'></script>
+        <script src='https://naver.github.io/egjs-view360/common/js/qrcode.js'></script>
+        <script src='https://naver.github.io/egjs-view360/common/js/PieView.js'></script>
+        <script src='https://naver.github.io/egjs-view360/common/js/screenfull.min.js'></script>
+        <script src='https://naver.github.io/egjs-view360/common/js/PanoControls.js'></script>
+        <script src='https://cdn.jsdelivr.net/npm/sweetalert2@9.7.2/dist/sweetalert2.all.min.js'></script>
+        <script src='https://cdn.jsdelivr.net/npm/webxr-polyfill@latest/build/webxr-polyfill.min.js'></script>
+        <script src='https://naver.github.io/egjs-view360/common/js/initXR.js'></script>
+        <script  src="static/viewer.js"></script>
+        
+        
 	</body>
 	
 	
