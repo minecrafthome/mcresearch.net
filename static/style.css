@@ -1,0 +1,105 @@
+@media (min-width: 800px){
+    body {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+}
+
+.header{
+    margin-top: 5%;
+    width: 100%;
+}
+.logo {
+    height: 25%;
+    border-radius: 50%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    text-align: center;
+}
+body {
+    background-color: #333;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font225 {
+    font-size: 225%;
+}
+.font125 {
+    font-size: 125%;
+}
+.font150 {
+    font-size: 150%;
+}
+.navbar {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+a {
+    transition: 0.3s;
+    color: #666;
+}
+a:link {
+    text-decoration: none;
+    color: #666;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: #666;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: #466783;
+}
+  
+a:active {
+    text-decoration: none;
+    color: #466783;
+}
+img {
+    height: 25%;
+    border-radius: 2%;
+}
+.imgdesc {
+    color: #666;
+    text-align: center;
+    font-size: 100%;
+}
+.roboto500 {
+    font-weight: 500;
+    font-size: 160%;
+}
+.project-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15%;
+}
+@media (min-width: 800px){
+    .project {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .project-title {
+        font-weight: 500;
+        font-size: 150%;
+    }
+    .project-img {
+        display: inline-block;
+        vertical-align: middle;
+        height: 15%;
+    }
+    .project-tab{
+        margin-left: 50px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
